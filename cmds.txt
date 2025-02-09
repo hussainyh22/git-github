@@ -49,3 +49,4 @@ git branch <name of the branch>
 
 How to Switch to that branch/ use that branch:
 git checkout <name of the branch>
+- Author, Date, etc.
