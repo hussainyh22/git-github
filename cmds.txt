@@ -24,3 +24,10 @@ how to revert back? -> like if you want to go back (accidently added a file)
 git reset <filename>
 
 git commit -> converts the staging area ready files -> proper commits
+syntax: git commit -m "IMP & Meaningful Message"
+
+
+
+git log -> returns the log file containing:
+- SHA - 1 HASH 
+- Author, Date, etc.
