@@ -54,7 +54,7 @@ step 1: Switch to main / master branch
 step 2: Then type "git merge <branch_name to be merged with main>"
 
 
- 7. .gitignore file
+ 7. .gitignore file - https://www.freecodecamp.org/news/gitignore-what-is-it-and-how-to-add-to-repo/
  Lets say we have some imp files - passwords / smthng
  - So, we create a new file ".gitignore"
  - we simply just type the file name in the file, and git wont track that file - SIMPLE!!
