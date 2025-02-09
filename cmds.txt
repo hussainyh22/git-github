@@ -1,8 +1,8 @@
+Configuring:
 git config --global user.name "<username separated in hyphens/underscores>"
-
 git config --global user.email "hussain.h@somaiya.edu"
 
-to check  - config file -> 
+to check:  - config file -> 
 git config --list
 
 
