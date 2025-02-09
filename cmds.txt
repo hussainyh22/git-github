@@ -28,6 +28,24 @@ syntax: git commit -m "IMP & Meaningful Message"
 
 
 
-git log -> returns the log file containing:
+git log -> returns the log file for each commit containing:
 - SHA - 1 HASH 
-- Author, Date, etc.
+- Author, Date, Commit Message etc.
+
+
+how to rollback to the previous version?
+- git checkout (hash):
+syntax: git checkout <copy the hash of the commit version>
+
+
+
+
+
+Branching:
+git branch -> checks how many existing branches are there
+
+Creating:
+git branch <name of the branch> 
+
+How to Switch to that branch/ use that branch:
+git checkout <name of the branch>
