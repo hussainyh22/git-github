@@ -31,3 +31,6 @@ syntax: git commit -m "IMP & Meaningful Message"
 git log -> returns the log file containing:
 - SHA - 1 HASH 
 - Author, Date, etc.
+
+
+adding new features
