@@ -1,4 +1,4 @@
-Configuring:
+1. Configuring:
 git config --global user.name "<username separated in hyphens/underscores>"
 git config --global user.email "hussain.h@somaiya.edu"
 
@@ -6,16 +6,15 @@ to check:  - config file ->
 git config --list
 
 
+2. Initialization:
 cmd to initialize repo as a git repo -> to enable it to track the changes:
 git init
-
 
 git status - provides the overview of the repo
 
 
-
-
-git add -> adds files/folders from repo/ working directory to staging area 
+3. ADD & COMMIT:
+git add -> adds files/folders from working directory to staging area 
 git add <filename>
 git add . // adds entire current directory
 untracked -> changes to be committed
@@ -27,26 +26,37 @@ git commit -> converts the staging area ready files -> proper commits
 syntax: git commit -m "IMP & Meaningful Message"
 
 
-
+4. Logs And Status
 git log -> returns the log file for each commit containing:
 - SHA - 1 HASH 
 - Author, Date, Commit Message etc.
 
 
+5. Rollback
 how to rollback to the previous version?
 - git checkout (hash):
 syntax: git checkout <copy the hash of the commit version>
+//get the hash from "git log" cmd
 
 
-
-
-
-Branching:
+6.Branching:
 git branch -> checks how many existing branches are there
 
-Creating:
+Creating Branches:
 git branch <name of the branch> 
 
 How to Switch to that branch/ use that branch:
 git checkout <name of the branch>
 - Author, Date, etc.
+
+How to merge post bug fixes?
+step 1: Switch to main / master branch
+step 2: Then type "git merge <branch_name to be merged with main>"
+
+
+ 7. .gitignore file
+ Lets say we have some imp files - passwords / smthng
+ - So, we create a new file ".gitignore"
+ - we simply just type the file name in the file, and git wont track that file - SIMPLE!!
+ - We can also ignore the .gitignore file by adding its name there 
+ 
