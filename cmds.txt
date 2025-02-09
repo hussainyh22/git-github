@@ -59,4 +59,16 @@ step 2: Then type "git merge <branch_name to be merged with main>"
  - So, we create a new file ".gitignore"
  - we simply just type the file name in the file, and git wont track that file - SIMPLE!!
  - We can also ignore the .gitignore file by adding its name there 
- 
+ - We can add direectories as : "dir_name/"
+
+
+8. Pushing & Pulling & cloning:
+syntax: git push  
+syntax: git pull
+syntax: git clone <githb url>
+
+
+FORKS : CREATE A COPY OF ANY PUBLIC REPO , THEN WE CLONE IT 
+
+ISSUES: CREATE ISSUES / feature for modification, first to contribute to opensource
+PR: PULL REQUEST- MERGING FILES FROM YOUR GITHUB (GIT -> GITHUB) (LOCAL -> CLOUD) & THEN RAISE A PR 
